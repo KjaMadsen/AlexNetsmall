@@ -1,5 +1,5 @@
 # AlexnetProject
-This is a small project where Alexnet is implemented into a windows form app where the user can upload or use provided images that the model will try to classify.
+This is a small project where (the pre-trained) Alexnet is implemented into a windows form app where the user can upload or use provided images that the model will try to classify.
 # Motivation
 This project is part of a job-search, and was requested by a potential employer as part of a job-application.
 # AlexNet
@@ -21,11 +21,11 @@ The project was built/created in Visual Studio 2022 on the windows forms app tem
 1.1) Download or clone the repo. Make sure you get the 'alexnet1.onnx' file (see bugs/errors).
 
 
-2) Build the solution (AlexNet.snl) in an IDE. It might not build successfully, but move on to the next step.
+2.0) Build the solution (AlexNet.snl) in an IDE. It might not build successfully, but move on to the next step.
 
-3) Make sure the file named 'alexnet1.onnx' is located under \bin\x86\Debug\model. Now try building it again, it should run. Tips for users of Visual Studio: you may have to change the file properites of 'labels.txt' and 'alexnet1.onnx' to "copy always". 
+3.0) Make sure the file named 'alexnet1.onnx' is located under \bin\x86\Debug\model. Now try building it again, it should run. Tips for users of Visual Studio: you may have to change the file properites of 'labels.txt' and 'alexnet1.onnx' to "copy always". 
 
-4) You can now either run the solution in an IDE or run the application file AlexNet under \bin\x86\Debug.
+4.0) You can now either run the solution in an IDE or run the application file AlexNet under \bin\x86\Debug.
 
 # Credits 
 Thanks to this incredible helpful video by Jon Wood on YouTube for helping me get started: 
