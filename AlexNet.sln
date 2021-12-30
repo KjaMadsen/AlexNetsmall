@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlexNet", "AlexNet.csproj", "{3EA0655E-A2DD-4FD5-9F19-6E90E5F27C94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "model", "model", "{2B2DFE69-77C5-4406-B422-5E5C72D743D2}"
+	ProjectSection(SolutionItems) = preProject
+		model\alexnet1.onnx = model\alexnet1.onnx
+		model\labels.txt = model\labels.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EA0655E-A2DD-4FD5-9F19-6E90E5F27C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA0655E-A2DD-4FD5-9F19-6E90E5F27C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA0655E-A2DD-4FD5-9F19-6E90E5F27C94}.Debug|x86.ActiveCfg = Debug|x86
+		{3EA0655E-A2DD-4FD5-9F19-6E90E5F27C94}.Debug|x86.Build.0 = Debug|x86
+		{3EA0655E-A2DD-4FD5-9F19-6E90E5F27C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA0655E-A2DD-4FD5-9F19-6E90E5F27C94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA0655E-A2DD-4FD5-9F19-6E90E5F27C94}.Release|x86.ActiveCfg = Release|x86
+		{3EA0655E-A2DD-4FD5-9F19-6E90E5F27C94}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED5E22FD-C7F3-4490-9AEF-80F6661B51FF}
+	EndGlobalSection
+EndGlobal
