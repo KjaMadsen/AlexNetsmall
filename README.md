@@ -9,9 +9,9 @@ There a no known bugs or errors.
 # Framework used
 The project is built in Visual Studio 2022 on the windows forms app template.
 # How to use
-1) This step requires pytorch and python. Run the RUNME.py file or the RUNMEnotebook.ipynb (Jupyter notebook) file. This will produce a file called 'alexnet1.onnx'. Take 'alexnet1.onnx' and put it in the model folder under [\AlexnetSmall\bin\x86\Debug\model]. Proceed to step 2 .
+1) This step requires pytorch and python. Run the RUNME.py file or the RUNMEnotebook.ipynb (Jupyter notebook) file. This will produce a file called 'alexnet1.onnx'. Take 'alexnet1.onnx' and put it in the model folder under [\AlexnetSmall\bin\x86\Debug\model]. Proceed to step 2.
 
-2)To run the program run the AlexNet (application file) in AlexNet\bin\x86\Debug or by running the project/solution file AlexNet.snl in \AlexnetSmall in an IDE.
+2) To run the program run the AlexNet (application file) in AlexNet\bin\x86\Debug or by running the project/solution file AlexNet.snl in \AlexnetSmall in an IDE.
 # Credits 
 Thanks to this incredible helpful video by Jon Wood on YouTube for helping me get started: 
 https://www.youtube.com/watch?v=KDxbXlwPPqk&t=92s&ab_channel=JonWood
